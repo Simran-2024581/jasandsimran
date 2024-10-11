@@ -1,0 +1,141 @@
+*{
+    font-size:30px;
+}
+
+h2{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'simran';
+    src: url('fonts/showdex/Showdex.ttf') format('truetype'); /* Specify the format */
+}
+
+body {
+    background-image: url("../3.jpg"); /* Background image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1.believer {
+    font-size: 80px; /* Adjust font size as needed */
+    font-family: 'simran'; /* Use the custom font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow for better readability */
+    color: rgb(249, 177, 177); /* Text color */
+    text-align: center; /* Center text */
+}
+h2.writer{
+    font-size:35px;
+    padding-left:40%;
+    color:slategray;
+}
+.lyrics {
+    color: #fff; /* Set default text color for lyrics */
+    padding: 20px; /* Add some padding */
+    text-align: left; /* Align text to the left */
+}
+.emotional { color: #C0392B; }
+.reflective { color: #5DADE2; }
+.determined { color: #27AE60; }
+.hopeful { color: #F1C40F; }
+.conflicted { color: #7F8C8D; }
+.assertive { color: #2980B9; }
+.narrative { color: #8E44AD; }
+.celebratory { color: #E67E22; }
+.pain { color: #8E44AD; }
+.positive { color: #2ECC71; }
+.excited { color: #D5006D; }
+.confident { color: #A50034; }
+.defiant { color: #D35400; }
+.defeated { color: #7B7B7B; }
+
+* {
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1.believer {
+    font-size: 80px;
+    font-family: 'Lobster', cursive; /* Cursive font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(249, 177, 177);
+    text-align: center;
+}
+
+h2.writer {
+    font-size: 35px;
+    padding-left: 40%;
+    color: slategray;
+}
+
+.lyrics {
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Assign different fonts to each class */
+.emotional { color: #C0392B; font-family: 'Permanent Marker', cursive; } /* Emotional font */
+.reflective { color: #4682B4; font-family: 'Indie Flower', cursive; } /* Reflective font */
+.determined { color: #27AE60; font-family: 'Pacifico', cursive; } /* Determined font */
+.hopeful { color: #F1C40F; font-family: 'Roboto', sans-serif; } /* Hopeful font */
+.conflicted { color: #7F8C8D; font-family: 'Indie Flower', cursive; } /* Conflicted font */
+.assertive { color: #2980B9; font-family: 'Permanent Marker', cursive; } /* Assertive font */
+.narrative { color: #8E44AD; font-family: 'Pacifico', cursive; } /* Narrative font */
+.celebratory { color: #E67E22; font-family: 'Lobster', cursive; } /* Celebratory font */
+.pain { color: #8E44AD; font-family: 'Indie Flower', cursive; } /* Pain font */
+.positive { color: #2ECC71; font-family: 'Permanent Marker', cursive; } /* Positive font */
+.excited { color: #D5006D; font-family: 'Pacifico', cursive; } /* Excited font */
+.confident { color: #A50034; font-family: 'Lobster', cursive; } /* Confident font */
+.defiant { color: #D35400; font-family: 'Indie Flower', cursive; } /* Defiant font */
+.defeated { color: #7B7B7B; font-family: 'Roboto', sans-serif; } /* Defeated font */
+
+
+.img{
+    position: absolute;
+    height:300px;
+    width:500px;
+    top:350px;
+    right:40px;
+}
+.img {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    top: 350px;
+    right: 40px;
+    opacity: 0.7; /* Adjust opacity (0.0 is fully transparent, 1.0 is fully opaque) */
+    filter: brightness(80%); /* Decrease brightness (100% is the original brightness) */
+}
+footer {
+    background-color:rgb(249, 177, 177);
+    color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin: 10px 0;
+}
+
+.footer-text a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.footer-text a:hover {
+    color: #ffcc00;
+}
